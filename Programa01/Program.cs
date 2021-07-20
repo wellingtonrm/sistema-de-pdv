@@ -8,9 +8,7 @@ namespace Programa01
 {
     static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+       
         [STAThread]
         static void Main()
         {
@@ -19,5 +17,6 @@ namespace Programa01
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
     }
 }
